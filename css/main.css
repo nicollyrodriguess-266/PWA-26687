@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    background: #98addd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* caixa principal */
+.container{
+    background: white;
+    width: 320px;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* título */
+h1{
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+/* texto */
+p{
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* labels */
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 15px;
+}
+
+/* inputs */
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* efeito no input */
+input:focus{
+    outline: none;
+    border: 1px solid #2563eb;
+}
+
+/* botão */
+button,
+input[type="submit"]{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* hover */
+button:hover,
+input[type="submit"]:hover{
+    background: #1d4ed8;
+}
+
+/* link */
+a{
+    text-decoration: none;
+}
